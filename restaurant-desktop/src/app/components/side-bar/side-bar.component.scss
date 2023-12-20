@@ -1,0 +1,72 @@
+.adisyon-container {
+  width: 347px;
+  height: 29px;
+  top: 20px;
+  left: 20px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+}
+
+.adisyon-header,
+.adisyon-body,
+.adisyon-footer {
+  display: flex;
+}
+
+.adisyon-header,
+.adisyon-footer {
+  background-color: #2d333f;
+  color: #ffffff;
+  font-weight: bold;
+
+  div {
+    padding: 8px;
+    text-align: left;
+    flex: 1;
+  }
+}
+
+.adisyon-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.adisyon-footer {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+  div {
+    color: #35bcaa;
+    text-align: center;
+  }
+}
+
+.adisyon-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    li {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      padding: 8px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 347px;
+      height: 64px;
+      margin: 0;
+      list-style: none;
+    }
+  }
+}

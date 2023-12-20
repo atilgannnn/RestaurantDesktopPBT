@@ -1,0 +1,10 @@
+<!-- apply.component.html -->
+<div>
+  <!-- Seçili yiyecekleri listeleyebilirsiniz, ama bu tamamen sizin uygulamanıza bağlıdır -->
+  <ul>
+    <li *ngFor="let food of selectedFood$ | async">{{ food.name }} - {{ food.price }}</li>
+  </ul>
+
+  <!-- Seçili yiyecekleri onaylamak için bir düğme -->
+  <div class="apply-btn" (click)="applySelection()">Apply</div>
+</div>

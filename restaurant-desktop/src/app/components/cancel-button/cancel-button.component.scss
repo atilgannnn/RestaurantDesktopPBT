@@ -1,0 +1,29 @@
+.cancel-btn {
+  position: fixed;
+  width: 87px;
+  height: 37px;
+  // top: 708px;
+  left: 120px;
+  right:20px;
+  bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #dc3545;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(#dc3545, 10%);
+    color: #ffffff;
+  }
+
+  &:active {
+    background-color: lighten(#dc3545, 10%);
+  }
+}

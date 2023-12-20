@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "name": "Daily",
+      "description": "Daily specials",
+      "food": [
+        { "id": 1, "name": "Breakfast", "price": 2.5 },
+        { "id": 2, "name": "Smoothie", "price": 3.75 },
+        { "id": 3, "name": "Salad", "price": 4.2 },
+        { "id": 4, "name": "Soup", "price": 2.8 },
+        { "id": 5, "name": "Pasta", "price": 4.5 },
+        { "id": 6, "name": "Parfait", "price": 3.1 }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Ala Carte",
+      "description": "À la carte menu",
+      "food": [
+        { "id": 7, "name": "Salmon", "price": 4.8 },
+        { "id": 8, "name": "Filet", "price": 5.0 },
+        { "id": 9, "name": "Pizza", "price": 3.9 },
+        { "id": 10, "name": "Prawns", "price": 4.25 },
+        { "id": 11, "name": "Ceasar", "price": 3.4 },
+        { "id": 12, "name": "Risotto", "price": 4.6 }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Dessert",
+      "description": "Delicious desserts",
+      "food": [
+        { "id": 13, "name": "Cake", "price": 4.75 },
+        { "id": 14, "name": "Cheesecake", "price": 3.2 },
+        { "id": 15, "name": "Tiramisu", "price": 4.0 },
+        { "id": 16, "name": "ApplePie", "price": 3.5 },
+        { "id": 17, "name": "CremeBrulee", "price": 4.15 },
+        { "id": 18, "name": "Sundae", "price": 2.9 }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Lunch",
+      "description": "Lunch options",
+      "food": [
+        { "id": 19, "name": "Caesar", "price": 4.4 },
+        { "id": 20, "name": "VeggieFry", "price": 3.3 },
+        { "id": 21, "name": "Sandwich", "price": 2.6 },
+        { "id": 22, "name": "Margherita", "price": 3.8 },
+        { "id": 23, "name": "Greek", "price": 4.1 },
+        { "id": 24, "name": "Teriyaki", "price": 4.95 }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Drink",
+      "description": "Beverages",
+      "food": [
+        { "id": 25, "name": "O.J.", "price": 2.2 },
+        { "id": 26, "name": "Mojito", "price": 3.6 },
+        { "id": 27, "name": "Cappuccino", "price": 4.3 },
+        { "id": 28, "name": "Mocktail", "price": 3.15 },
+        { "id": 29, "name": "Lassi", "price": 4.7 },
+        { "id": 30, "name": "Water", "price": 2.75 }
+      ]
+    }
+  ]
+}

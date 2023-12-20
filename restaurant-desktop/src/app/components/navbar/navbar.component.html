@@ -1,0 +1,6 @@
+<div class="nav-btn-group">
+  <div class="product-btn">Product Category</div>
+  <div class="nav-btn" *ngFor="let nav of navigation" [attr.data-value]="nav.id" (click)="handleClick(nav.id)">
+    {{ nav.name }}
+  </div>
+</div>

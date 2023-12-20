@@ -1,0 +1,21 @@
+<div class="adisyon-container">
+  <div class="adisyon-header">
+    <div>PLU</div>
+    <div>Name</div>
+    <div>Amt.</div>
+    <div>Price</div>
+    <div>Item Total</div>
+  </div>
+  <div class="adisyon-body">
+    <ul *ngFor="let item of checkItems; let i = index">
+      <li>100</li>
+      <li>{{ item.name }}</li>
+      <li>{{ item.amount }}</li>
+      <li>{{ item.price }} €</li>
+      <li>{{ item.quantity * item.price }} €</li>
+    </ul>
+  </div>
+  <div class="adisyon-footer">
+    <div colspan="4" class="total-label">{{ calculateTotalAmount() }} €</div>
+  </div>
+</div>

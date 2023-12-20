@@ -1,0 +1,33 @@
+.apply-btn {
+  position: fixed;
+  display: flex;
+  width: 79px;
+  height: 37px;
+  // top: 708px;
+  left: 666px;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 4px;
+  // gap: 10px;
+  background-color: #277ed4;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(#277ed4, 10%);
+    color: #ffffff;
+  }
+
+  &:active {
+    background-color: lighten(#277ed4, 10%);
+  }
+}

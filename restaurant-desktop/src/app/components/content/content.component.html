@@ -1,0 +1,14 @@
+<div class="content-container">
+  <div class="content-group" *ngFor="let foodItem of selectedFood; let i = index">
+    <p class="price-line">{{calculateTotalPrice(foodItem)}} €</p>
+    <p class="content-name">{{foodItem.name}} ({{foodItem.quantity}})</p>
+    <div class="content-btn-group">
+      <div class="minus-btn" (click)="decreaseQuantity(i)">
+        <i class="fa-solid fa-minus"></i>
+      </div>
+      <div class="plus-btn" (click)="increaseQuantity(i)">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+    </div>
+  </div>
+</div>
